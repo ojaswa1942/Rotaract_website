@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />     
+    <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    
+    <style>
+      #HR{
+          visibility: hidden;
+      }
+      *{
+        box-sizing: border-box;
+      }
+      </style>
+      <style type="text/css">
+html {
+      overflow-x:hidden ;
+}
+</style>
+    <body class="j">
+    
+    
+<div class="cards">
+    <% for(var i=0;i<te.length;i++){ %>
+    <div class="card">
+        <div class="card__img" style="background-image:url(<%=te[i].imagei%>);"></div>  
+        <div class="card__info">
+            <h3 class="card__title"><%=te[i].hog%></h3>
+           
+            <div class="card__text"><%=te[i].texti%></div>
+            <div class="card__controls">
+                <a class="btn-grad" href="<%=te[i].linki%>">Read More</a>
+            </div>
+        </div>
+    </div>
+    <%}%>
+    </div>
+    
+    <a class="btn-grad" href="/">Back Home</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        </body>
+        
+        </html>
+        </html>
